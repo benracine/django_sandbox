@@ -1,5 +1,5 @@
 from django.conf.urls.defaults import *
-from helloworld.helloworldapp.views import index
+from views import index
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
