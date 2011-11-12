@@ -1,4 +1,5 @@
 from django.conf.urls.defaults import *
+from helloworld.helloworldapp.views import index
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -6,7 +7,7 @@ from django.conf.urls.defaults import *
 
 urlpatterns = patterns('',
     # Example:
-    (r'^helloworld/', include('helloworld.helloworldapp.urls')),
+    (r'^$', index),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
